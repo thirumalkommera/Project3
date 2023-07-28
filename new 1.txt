@@ -1,0 +1,5 @@
+3 Types of INstances 
+    
+	 1) Dedicated Instance : Bounded to a Single Application ( 1 server - 1 application ) 
+	 2) Reserved Instance  : We wil create a instance in the form of IMAGE , so that whenever we their is any need , we will use it 
+	 3) On-demand Instance : We will use these instance whenever it is required , with the Help of Instance Templates

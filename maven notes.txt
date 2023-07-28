@@ -1,0 +1,30 @@
+Maven :- It is a build tool , used to build the code 
+
+Pre-requisite:-- JDK ( Java development kit ) -- jdk-1.8 version must be installated and configured ( environment variables ) in ur machine.
+
+
+ 3 Types of Repositories will be their 
+ 
+ 1) Local Repo    :- When we install maven in our machine ( c:/users/username(hp)/.m2 ) 
+ 2) Central Repo  :- It is maintained by APACHE ( www.repo1.maven.org ) 
+ 3) Remote Repo   :- Maintained by ur 3rd party vendors 
+
+Note:- These repositories will contain helpfull PLUGINS , which will help us to build our COde.
+
+Plugin :- Some set of program
+
+Phases/ Stages of Maven
+	
+	1) Clean    :- It will wipeout the entire workspace
+	2) Install  :- It will be used to BUILD ur ENTIRE CODE 
+	3) Test     :- It will test the output 
+	4) Package  :- If testing is done and all passed , the it will form package ( .war , .jar )
+	5) Validate 
+	6) Compile
+	7) Deploy
+	
+
+Artifacts:- 
+
+1) .war :- web archive file    --- deployed in webservers      ( Tomcat )
+2) .jar :- java archive file   --- deployed in backend servers ( weblogic , JBoss, Glassfish ....)
